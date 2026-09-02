@@ -1,0 +1,10 @@
+data/*
+!data/README.md
+__pycache__/
+*.pyc
+*.log
+*.pkl
+experiments/*.txt
+experiments/*.xml
+experiments/naibbe/
+img/

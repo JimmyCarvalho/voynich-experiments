@@ -1,0 +1,169 @@
+{
+ "exp56_fronteira": {
+  "MI_fim_inicio_bits": {
+   "voynich_EVA": 0.175,
+   "voynich_compostos": 0.192,
+   "latim": 0.036,
+   "portugues": 0.06,
+   "alemao": 0.089,
+   "hebraico": 0.087,
+   "turco": 0.077,
+   "naibbe": 0.008,
+   "voynich_embaralhado": 0.006
+  },
+  "MI_distancia_2": {
+   "voynich": 0.014
+  },
+  "robustez_espacos_incertos": {
+   "juntar": 0.146,
+   "so_fronteiras_certas": 0.168,
+   "embaralhado": 0.006
+  },
+  "fim_classe_para_inicio_classe": {
+   "voynich": 0.366,
+   "linguas": "0.011-0.096",
+   "naibbe": 0.544,
+   "voynich_embaralhado": 0.357
+  },
+  "previsibilidade_do_espaco": {
+   "voynich": 0.776,
+   "linguas": "0.555-0.619",
+   "naibbe": 0.875
+  },
+  "MI_dentro_da_palavra": {
+   "voynich": 1.673,
+   "naibbe": 1.741,
+   "latim": 0.706,
+   "portugues": 1.015
+  },
+  "pares_sobre": [
+   "s.a x4.9",
+   "o.l x4.2",
+   "r.a x3.2",
+   "m.y x3.0",
+   "o.k x2.9",
+   "y.q x1.7 (3669 obs)"
+  ],
+  "pares_sub": [
+   "n.r x0.11",
+   "y.a x0.16",
+   "s.k x0.19"
+  ]
+ },
+ "exp57_hibrido_naibbe_mais_enchimento": {
+  "p": [
+   0,
+   0.1,
+   0.2,
+   0.3,
+   0.4
+  ],
+  "H2": [
+   2.06,
+   2.15,
+   2.24,
+   2.34,
+   2.46
+  ],
+  "TTR": [
+   0.167,
+   0.204,
+   0.24,
+   0.276,
+   0.31
+  ],
+  "rep4": [
+   5,
+   2,
+   0,
+   1,
+   5
+  ],
+  "viz1": [
+   0.015,
+   0.066,
+   0.119,
+   0.176,
+   0.234
+  ],
+  "memLinha": [
+   -0.0072,
+   0.0365,
+   0.0796,
+   0.1343,
+   0.1884
+  ],
+  "MI": [
+   0.008,
+   0.009,
+   0.01,
+   0.01,
+   0.01
+  ],
+  "voynich": {
+   "H2": 2.12,
+   "TTR": 0.213,
+   "rep4": 1,
+   "viz1": 0.045,
+   "memLinha": 0.0192,
+   "MI": 0.175
+  },
+  "conclusao": "p~0.05-0.10 reproduz similaridade local e memoria da linha; a MI da fronteira fica em 0.01"
+ },
+ "exp59_escala_de_tabelas": {
+  "regra_100": {
+   "H2": 1.88,
+   "TTR": 0.106,
+   "top20": 0.415,
+   "rep4": 489,
+   "MI": 0.123
+  },
+  "regra_50": {
+   "H2": 1.98,
+   "TTR": 0.149,
+   "top20": 0.312,
+   "rep4": 54,
+   "MI": 0.036
+  },
+  "regra_30": {
+   "H2": 2.01,
+   "TTR": 0.156,
+   "top20": 0.273,
+   "rep4": 21,
+   "MI": 0.018
+  },
+  "regra_0": {
+   "H2": 2.06,
+   "TTR": 0.167,
+   "top20": 0.228,
+   "rep4": 5,
+   "MI": 0.008
+  },
+  "conclusao": "MI da fronteira e ausencia de repeticoes sao antagonicas nessa familia; nenhum ponto alcanca o Voynich"
+ },
+ "exp60_quebra_de_linha": {
+  "voynich_dentro_da_linha": 0.232,
+  "voynich_atraves_da_quebra": 0.048,
+  "baseline_embaralhado": 0.035,
+  "linha_i_para_i2": 0.044,
+  "latim_dentro": 0.081,
+  "latim_atraves": 0.088,
+  "conclusao": "a ligacao morre na quebra de linha; no latim nao"
+ },
+ "exp58_maos": {
+  "JS_mesma_mao": 0.104,
+  "JS_mao_diferente": 0.237,
+  "p_permutacao": "<0.0003",
+  "n_pares": [
+   136,
+   22
+  ],
+  "classificacao_herbario_LOO": "93/108 = 86% (chance 72%)",
+  "mao1_vs_resto": "77/78",
+  "maos_2_3_5": "confundidas entre si",
+  "B_para_B_n1": {
+   "f40v->f41r": 0.224,
+   "baseline_B": 0.066
+  }
+ }
+}

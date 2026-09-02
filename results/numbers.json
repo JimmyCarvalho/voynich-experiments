@@ -1,0 +1,57 @@
+{
+ "entropia_H2": {
+  "Voynich": 2.12,
+  "Latim": 3.23,
+  "Português": 3.06,
+  "Hebraico": 3.35,
+  "Grego": 2.99,
+  "Alemão": 3.05,
+  "Turco": 3.32,
+  "Árabe": 3.5,
+  "Latim sem vogais": 2.93
+ },
+ "placar": {
+  "Latim": {
+   "ref": -1.842,
+   "controle": -0.028,
+   "voynich": 0.342,
+   "recuperacao": 100
+  },
+  "Português": {
+   "ref": -1.826,
+   "controle": -0.039,
+   "voynich": 0.461,
+   "recuperacao": 100
+  },
+  "Hebraico": {
+   "ref": -2.009,
+   "controle": -0.022,
+   "voynich": 0.312,
+   "recuperacao": 97
+  },
+  "Grego": {
+   "ref": -1.71,
+   "controle": -0.024,
+   "voynich": 0.52,
+   "recuperacao": 99
+  },
+  "Alemão": {
+   "ref": -1.692,
+   "controle": 0.071,
+   "voynich": 0.655,
+   "recuperacao": 91
+  },
+  "Turco": {
+   "ref": -1.926,
+   "controle": 0.133,
+   "voynich": 0.266,
+   "recuperacao": 33
+  },
+  "Árabe": {
+   "ref": -2.128,
+   "controle": -0.038,
+   "voynich": -0.027,
+   "recuperacao": 68
+  }
+ }
+}

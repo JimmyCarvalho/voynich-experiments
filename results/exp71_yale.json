@@ -1,0 +1,62 @@
+{
+ "exp71_nivel_da_palavra": {
+  "voynich": {
+   "real": {
+    "TTR": 0.213,
+    "tipos10k": 3256,
+    "tipos34k": 7250,
+    "zipf": -1.04,
+    "top100": 0.444,
+    "top1000": 0.768
+   },
+   "cadeia3": {
+    "TTR": 0.217,
+    "tipos10k": 3077,
+    "tipos34k": 7371,
+    "zipf": -1.063,
+    "top100": 0.454,
+    "top1000": 0.77,
+    "pct_palavras_geradas_existentes": 85
+   }
+  },
+  "latim": {
+   "real": {
+    "TTR": 0.205,
+    "tipos10k": 2649,
+    "tipos34k": 6975,
+    "zipf": -0.933,
+    "top100": 0.413,
+    "top1000": 0.743
+   },
+   "cadeia3": {
+    "TTR": 0.356,
+    "tipos10k": 4526,
+    "tipos34k": 12122,
+    "zipf": -0.956,
+    "top100": 0.365,
+    "top1000": 0.617,
+    "pct_palavras_geradas_existentes": 53
+   }
+  },
+  "portugues": {
+   "real": {
+    "TTR": 0.116,
+    "tipos10k": 1666,
+    "tipos34k": 3969
+   },
+   "cadeia3": {
+    "TTR": 0.208,
+    "tipos10k": 2904,
+    "tipos34k": 7094,
+    "pct_palavras_geradas_existentes": 72
+   }
+  },
+  "conclusao": "no latim e no portugues, o nivel da palavra carrega informacao alem dos habitos de 3 letras (lexico real); no Voynich nao: a cadeia de 3 glifos reproduz todas as estatisticas de palavra. Responde ao argumento MATTR de Lindemann."
+ },
+ "yale_davis": {
+  "davis2020": "5 escribas; escribas 1 e 2 alternam por BIFOLIO dentro dos cadernos 4-7 (oficina); escriba 4 escreveu o zodiaco; escriba 2 talvez coordenador; 3,4,5 usam dialeto B",
+  "davis2024_multiespectral": "10 folios; f93r: texto escrito POR CIMA de mancha de pigmento -> desenho e pintura antes do texto; sem palimpsesto; assinatura Tepenec confirmada; 3 colunas de alfabetos em f1r atribuidas a Marci (tentativa de decifrar por substituicao)",
+  "davis2025_materialidade": "XRF f1r (tinta de Marci rica em zinco), manchas de agua para ordem dos bifolios, hipotese de singulions, LSA para adjacencia (criticado por Pelling)",
+  "lindemann_MATTR": "argumenta que estatisticas de palavra (MATTR, MCW) no intervalo das linguas sao evidencia de significado; Exp 71 mostra que a cadeia de 3 glifos as reproduz"
+ }
+}

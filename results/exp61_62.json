@@ -1,0 +1,132 @@
+{
+ "exp61_vaos_na_imagem": {
+  "paginas": [
+   "f20v (pdf p40)",
+   "receitas (pdf p196)"
+  ],
+  "linhas": 58,
+  "vaos": 1782,
+  "histograma_px": {
+   "1-5 (entre letras)": 1327,
+   "6-9 (cinzenta)": 190,
+   ">=10 (espaco claro)": 258
+  },
+  "altura_x_px": 12,
+  "limiar_por_linha_que_reproduz_EVA_f20v": [
+   7,
+   5,
+   5,
+   8,
+   7,
+   6,
+   "11 (planta)",
+   6,
+   5,
+   5,
+   9
+  ],
+  "mediana_limiar": 6,
+  "conclusao": "os vaos formam um continuo; a zona cinzenta tem 74% do tamanho do conjunto de espacos claros; o limiar do transliterador varia de linha para linha"
+ },
+ "exp62_juntas_moles": {
+  "pares_com_espaco_incerto_mais_frequentes": {
+   "r,a": 4.4,
+   "l,k": 8.6,
+   "s,a": 6.0,
+   "o,l": 9.3,
+   "o,k": 10.6,
+   "y,k": 2.4,
+   "y,t": 2.6
+  },
+  "glifo_antes_incerto_vs_certo": {
+   "o": [
+    15.4,
+    2.6
+   ],
+   "l": [
+    27.8,
+    15.2
+   ],
+   "y": [
+    18.0,
+    42.8
+   ],
+   "n": [
+    3.9,
+    17.9
+   ]
+  },
+  "glifo_depois_incerto_vs_certo": {
+   "a": [
+    19.6,
+    4.8
+   ],
+   "k": [
+    12.9,
+    2.8
+   ],
+   "q": [
+    2.3,
+    17.0
+   ],
+   "o": [
+    9.7,
+    22.5
+   ]
+  },
+  "coincidencia": "as juntas moles (o.l, o.k, s.a, r.a, l.k) sao os mesmos pares sobre-representados atraves da fronteira no Exp 56; y.q e o oposto: fronteira certa"
+ },
+ "exp62b_resegmentacao_pelas_juntas_moles": {
+  "k_fundidos": [
+   0,
+   3,
+   6,
+   10,
+   15
+  ],
+  "MI_fronteira": [
+   0.175,
+   0.172,
+   0.166,
+   0.168,
+   0.131
+  ],
+  "H2": [
+   2.119,
+   2.113,
+   2.106,
+   2.101,
+   2.097
+  ],
+  "TTR": [
+   0.213,
+   0.216,
+   0.219,
+   0.234,
+   0.272
+  ],
+  "rep4": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "previsibilidade_espaco": [
+   77.6,
+   78.4,
+   79.8,
+   81.8,
+   83.4
+  ],
+  "controle_fusoes_aleatorias": {
+   "6": {
+    "MI": 0.226
+   },
+   "15": {
+    "MI": 0.443
+   }
+  },
+  "conclusao": "re-segmentar pelas hesitacoes do escriba nao muda nenhuma conclusao: MI cai pouco, H2 nao muda, repeticoes continuam zero"
+ }
+}

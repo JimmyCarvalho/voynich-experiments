@@ -1,0 +1,122 @@
+{
+ "llm_claims": {
+  "kondrak_hauer_2018": "algoritmo (nao LLM) sugeriu hebraico com anagramas; traducao via Google Translate; desmentido",
+  "ardic_2025": "usa ChatGPT para validar leitura em turco antigo; conclusao depende do prompt; nao e evidencia",
+  "jama_arxiv_2505.02261": "fibonacci/razao aurea; sem LLM; sem traducao",
+  "manifold_2026": "12% de chance de decifracao validada ate dez/2026; nenhuma cumpriu criterios",
+  "x_posts": "posts virais de \"treinei uma IA no Voynich\" (ex. Roemmele, nov 2025) sem texto decifrado verificavel"
+ },
+ "exp72_previsibilidade_palavra": {
+  "voynich": {
+   "H_uni": 10.74,
+   "H_bi": 11.51,
+   "acerto_sem": 1.6,
+   "acerto_com": 2.2
+  },
+  "bloco_S3": {
+   "acerto_com": 2.3
+  },
+  "latim": {
+   "acerto_sem": 6.8,
+   "acerto_com": 9.3
+  },
+  "portugues": {
+   "acerto_sem": 6.0,
+   "acerto_com": 12.0
+  },
+  "cadeia": {
+   "acerto_com": 1.9
+  }
+ },
+ "exp72_dfa": {
+  "alpha_rank": {
+   "voynich": 0.682,
+   "bloco_S3": 0.629,
+   "embaralhado": 0.49,
+   "cadeia": 0.489,
+   "latim": 0.609,
+   "portugues": 0.579
+  },
+  "alpha_tamanho": {
+   "voynich": 0.658,
+   "bloco_S3": 0.626,
+   "latim": 0.618,
+   "portugues": 0.569,
+   "cadeia": 0.496
+  },
+  "inclinacao_local_rank_voynich": {
+   "8-40": 0.564,
+   "40-200": 0.583,
+   "200-1000": 0.811,
+   "1000+": 0.98
+  },
+  "controles": {
+   "palavras_embaralhadas_na_pagina": 0.683,
+   "linhas_embaralhadas_na_pagina": 0.678,
+   "paginas_embaralhadas": 0.715
+  },
+  "leitura": "a correlacao de longo alcance vive no nivel da pagina (cada pagina tem sua mistura), nao na ordem dentro da pagina nem na ordem das paginas"
+ },
+ "exp73_copia_na_pagina": {
+  "alpha_rank": [
+   0.52,
+   0.515,
+   0.516,
+   0.533
+  ],
+  "conclusao": "copia dentro da pagina NAO cria a correlacao de longo alcance"
+ },
+ "exp74_vies_por_pagina": {
+  "sigma": [
+   0.0,
+   0.3,
+   0.5,
+   0.7
+  ],
+  "alpha_rank": [
+   0.512,
+   0.562,
+   0.599,
+   0.682
+  ],
+  "alpha_tam": [
+   0.498,
+   0.59,
+   0.667,
+   0.771
+  ],
+  "H2": [
+   2.16,
+   2.18,
+   2.22,
+   2.24
+  ],
+  "TTR": [
+   0.227,
+   0.234,
+   0.242,
+   0.247
+  ],
+  "conclusao": "um vies de habitos por pagina (sigma~0.5-0.7) reproduz a correlacao de longo alcance mantendo a bateria"
+ },
+ "exp75_palavras_exclusivas_de_pagina": {
+  "exclusivas_3x": {
+   "voynich": 0.0,
+   "modelo_vies_0.5": 0.0,
+   "latim": 0.2,
+   "portugues": 0.1
+  },
+  "concentradas_3x": {
+   "voynich": 0.03,
+   "modelo_vies_0.5": 0.04,
+   "modelo_vies_0.7": 0.13,
+   "latim": 0.62,
+   "portugues": 0.57
+  },
+  "exclusivas_2x_total": {
+   "voynich": 17,
+   "latim": 225
+  },
+  "conclusao": "o efeito de pagina nao esta em palavras especificas (conteudo); esta espalhado nos habitos"
+ }
+}

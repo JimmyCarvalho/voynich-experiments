@@ -1,0 +1,96 @@
+{
+ "exp49_localidade_vertical": {
+  "voynich_ed1_P1..P5": [
+   0.249,
+   0.235,
+   0.233,
+   0.225,
+   0.227
+  ],
+  "voynich_excesso_linha_acima": 0.0192363841025652,
+  "ic95": [
+   0.015061887606906216,
+   0.02385095903174067
+  ],
+  "voy_linhas_embaralhadas_excesso": -0.00104255650939164,
+  "latim_excesso": -0.0018446435031448383,
+  "portugues_P1..P5": [
+   0.306,
+   0.311,
+   0.301,
+   0.297,
+   0.291
+  ],
+  "dentro_paragrafo_voynich_P1..P4": [
+   0.27,
+   0.255,
+   0.244,
+   0.248
+  ],
+  "dentro_paragrafo_latim": [
+   0.142,
+   0.146,
+   0.143,
+   0.135
+  ],
+  "dentro_paragrafo_portugues": [
+   0.316,
+   0.317,
+   0.3,
+   0.297
+  ],
+  "por_secao_excesso_d1_vs_embaralhado": {
+   "S/B": 0.029,
+   "H/A": 0.018,
+   "B/B": 0.062,
+   "H/B": 0.039,
+   "P/A": 0.059,
+   "T/B": 0.035
+  },
+  "alinhamento_horizontal": "sem evidencia alem do efeito de posicao (controle embaralhado mostra o mesmo +11%)"
+ },
+ "exp50_palavras_junto_a_desenhos": {
+  "meio": {
+   "n": 25371,
+   "tam": 4.95,
+   "fim_m": 0.9,
+   "ini_q": 17.1,
+   "ini_gallows": 6.4,
+   "ini_d": 6.8
+  },
+  "fim_linha": {
+   "n": 4026,
+   "tam": 4.71,
+   "fim_m": 15.6,
+   "ini_q": 8.5,
+   "ini_gallows": 5.0,
+   "ini_d": 16.6
+  },
+  "antes_desenho": {
+   "n": 725,
+   "tam": 4.21,
+   "fim_m": 2.5,
+   "ini_q": 9.9,
+   "ini_gallows": 6.6,
+   "ini_d": 20.6,
+   "p_fim_m_vs_meio": 0.0002
+  },
+  "depois_desenho": {
+   "n": 558,
+   "tam": 4.85,
+   "fim_m": 0.5,
+   "ini_q": 4.1,
+   "ini_gallows": 0.2,
+   "ini_d": 16.7,
+   "p_ini_q_vs_meio": 0.0
+  },
+  "inicio_linha": {
+   "n": 4026,
+   "tam": 5.4,
+   "fim_m": 0.5,
+   "ini_q": 13.0,
+   "ini_gallows": 22.3,
+   "ini_d": 15.5
+  }
+ }
+}

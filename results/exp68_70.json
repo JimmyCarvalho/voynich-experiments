@@ -1,0 +1,139 @@
+{
+ "exp68_etiquetas_zodiaco": {
+  "n": 299,
+  "distintas": 247,
+  "o_gallows_inicial": {
+   "zodiaco": 0.61,
+   "estrelas_f68": 0.44,
+   "plantas_potes": 0.39,
+   "ninfas": 0.41,
+   "circulares": 0.45,
+   "texto_corrido": 0.12
+  },
+  "marcador_de_signo": {
+   "prefixo3_dentro": 8.9,
+   "prefixo3_entre": 5.0,
+   "sufixo3_dentro": 2.9,
+   "sufixo3_entre": 2.0
+  },
+  "posicao_entre_signos": {
+   "dist_mesma_posicao": 0.716,
+   "dist_aleatoria": 0.723,
+   "identicas_mesma_posicao": "1 de 833"
+  },
+  "repetidas_entre_signos": 29,
+  "conclusao": "nao codificam posicao/numero; classe marcada por o+gallows; leve agrupamento por pagina"
+ },
+ "exp69_validacao_fora_da_amostra": {
+  "tamanho_var_media": {
+   "voynich": 0.737,
+   "modelo": 0.865,
+   "latim": 1.277
+  },
+  "KL_tamanho_bits": {
+   "modelo": 0.018,
+   "latim": 0.271,
+   "portugues": 0.328
+  },
+  "heaps_10k": {
+   "voynich": 3256,
+   "modelo": 3179,
+   "latim": 2649
+  },
+  "heaps_34k": {
+   "voynich": 7250,
+   "modelo": 7632,
+   "latim": 6975
+  },
+  "zipf": {
+   "voynich": -1.04,
+   "modelo": -1.049,
+   "latim": -0.933
+  },
+  "cobertura_top100": {
+   "voynich": 0.444,
+   "modelo": 0.444
+  },
+  "burstiness_livro_inteiro": {
+   "voynich": 1.597,
+   "modelo": 1.005,
+   "latim": 1.501,
+   "portugues": 1.661
+  },
+  "burstiness_dentro_de_bloco": {
+   "bio_mao2": [
+    1.131,
+    0.933,
+    1.22
+   ],
+   "estrelas_mao3": [
+    1.21,
+    0.943,
+    1.398
+   ],
+   "herb_mao1": [
+    1.085,
+    0.953,
+    1.257
+   ],
+   "herb_mao2": [
+    1.065,
+    0.856,
+    1.107
+   ],
+   "ordem": "real, cadeia, latim"
+  },
+  "conclusao": "passa em tamanho, Heaps, Zipf, cobertura; falha em burstiness no livro inteiro (dialetos/secoes); residuo pequeno dentro de bloco"
+ },
+ "exp70_tamanho_da_receita": {
+  "regras_ordem2_95pct": {
+   "voynich": {
+    "contextos": 250,
+    "regras": 1228
+   },
+   "latim": {
+    "contextos": 354,
+    "regras": 2246
+   },
+   "portugues": 2106,
+   "alemao": 2150
+  },
+  "regras_ordem3": {
+   "voynich": 4469,
+   "latim": 10734,
+   "portugues": 8071,
+   "alemao": 7802
+  },
+  "unidades_BPE_60_fusoes": {
+   "voynich": {
+    "total": 84,
+    "cobrem95": 63,
+    "por_palavra": 2.16
+   },
+   "latim": {
+    "total": 82,
+    "cobrem95": 67,
+    "por_palavra": 3.31
+   }
+  },
+  "sequencias_de_unidades_95pct": {
+   "voynich": 812,
+   "latim": 1121
+  },
+  "palavras_por_n_unidades": {
+   "voynich": [
+    26,
+    45,
+    20,
+    9
+   ],
+   "latim": [
+    18,
+    22,
+    18,
+    43
+   ]
+  },
+  "top30_unidades": "ol y ok d aiin s o qok ar ot k ch or al sh che t daiin ee l e chedy edy p qot ody eey ain chy she"
+ }
+}

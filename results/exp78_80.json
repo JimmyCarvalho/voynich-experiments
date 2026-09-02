@@ -1,0 +1,89 @@
+{
+ "exp78_anel_f57v": {
+  "itens": [
+   "o",
+   "l",
+   "d",
+   "r",
+   "v",
+   "x",
+   "k",
+   "m",
+   "f",
+   "@169v",
+   "t",
+   "r",
+   "@170",
+   "@171",
+   "y",
+   "I",
+   "@172"
+  ],
+  "no_texto": {
+   "o": 22323,
+   "l": 9461,
+   "d": 11840,
+   "r": 6535,
+   "k": 9930,
+   "t": 5930,
+   "y": 16041,
+   "m": 937,
+   "f": 401,
+   "v": 1,
+   "x": 22,
+   "I": 0,
+   "especiais": "0 (4 sinais)"
+  },
+  "ausentes_do_anel_entre_os_12_mais_frequentes": [
+   "e",
+   "h",
+   "a",
+   "c",
+   "i",
+   "s"
+  ],
+  "conclusao": "o anel nao e o alfabeto de trabalho do texto"
+ },
+ "exp79_berco_etiquetas": {
+  "controle_latim_cifrado": "729/730 (99.9%)",
+  "acaso_cadeia_latim": "109/730 (14.9%)",
+  "etiquetas_glifo_latim": "92/730 (12.6%)",
+  "etiquetas_compostos_latim": "161/730 (22.1%) vs acaso 176/730 (24.1%)",
+  "etiquetas_italiano": "99/730 (13.6%) vs acaso 95/730 (13.0%)",
+  "sem_marcador": "84/275 (30.5%) vs acaso 64/275 (23.3%)",
+  "conclusao": "etiquetas nao sao nomes latinos/italianos em substituicao simples"
+ },
+ "exp80_solucionador_naibbe": {
+  "segmentacao_aprendida_sem_chave": {
+   "unigramas_certos": "110-115/137",
+   "divisao_bigramas": "86-88%",
+   "prefixos": "108-111/138",
+   "sufixos": "117-119/138"
+  },
+  "tentativas": {
+   "recozimento_palavra": {
+    "controle_acuracia": 4.4,
+    "perplexidade": 16.4,
+    "chave_verdadeira": 8.0,
+    "latim_real": 6.0
+   },
+   "recozimento_afixos_KL": {
+    "controle_acuracia": 15.1,
+    "perplexidade": 17.6
+   },
+   "agrupamento_por_contexto": {
+    "pureza": 41.5,
+    "acuracia": 2.6
+   },
+   "HMM_EM_knight": {
+    "controle_acuracia": 23.8,
+    "ll_token": -5.283,
+    "voynich_latim": -5.485,
+    "voynich_italiano": -5.477,
+    "cadeia_latim": -5.463,
+    "EM_esparso": 9.8
+   }
+  },
+  "conclusao": "nenhum dos tres solucionadores quebra o controle (max 23.8% de acerto, acaso ~8%); a unicidade existe (chave verdadeira pontua muito melhor), o problema e a busca; o teste do Voynich sob Naibbe fica em aberto por limitacao de ferramenta"
+ }
+}

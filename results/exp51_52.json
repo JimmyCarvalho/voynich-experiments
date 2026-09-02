@@ -1,0 +1,95 @@
+{
+ "exp51_segmentacao_alternativa": {
+  "voynich": {
+   "EVA": {
+    "alfabeto": 25,
+    "unid_por_palavra": 5.07,
+    "H2": 2.119
+   },
+   "ch_sh": {
+    "alfabeto": 27,
+    "unid": 4.65,
+    "H2": 2.247
+   },
+   "bancos_com_gallows": {
+    "alfabeto": 31,
+    "unid": 4.53,
+    "H2": 2.246
+   },
+   "currier_like": {
+    "alfabeto": 37,
+    "unid": 4.11,
+    "H2": 2.39
+   },
+   "maxima": {
+    "alfabeto": 46,
+    "unid": 3.2,
+    "H2": 2.811
+   }
+  },
+  "controles_mesma_ma_segmentacao": {
+   "latim": {
+    "letra": 3.323,
+    "com_28_digrafos": 3.66
+   },
+   "portugues": {
+    "letra": 3.087,
+    "com_28_digrafos": 3.245
+   },
+   "alemao": {
+    "letra": 3.105,
+    "com_28_digrafos": 3.307
+   }
+  }
+ },
+ "exp52_melhor_segmentacao_possivel_busca_gulosa": {
+  "voynich_12_fusoes": {
+   "fusoes": [
+    "ch",
+    "ai",
+    "dy",
+    "ol",
+    "che",
+    "ok",
+    "in",
+    "aiin",
+    "sh",
+    "qok",
+    "ar",
+    "ee"
+   ],
+   "H2": [
+    2.119,
+    2.211,
+    2.265,
+    2.319,
+    2.375,
+    2.434,
+    2.488,
+    2.544,
+    2.601,
+    2.656,
+    2.709,
+    2.759,
+    2.809
+   ],
+   "alfabeto_final": 37,
+   "unid_final": 3.32,
+   "compressao": "5.07 -> 3.32 (-35%)"
+  },
+  "latim_mesma_busca": {
+   "H2_inicial": 3.322,
+   "apos_12": 3.616,
+   "apos_35": 3.859,
+   "unid_final": 3.77,
+   "compressao": "5.21 -> 3.77 (-28%)"
+  },
+  "comparacao_pareada_mesma_compressao": {
+   "voynich_unid_3.32": 2.809,
+   "latim_unid_3.77": 3.859,
+   "latim_unid_3.86": 3.825,
+   "gap": ">1.0 bit"
+  }
+ },
+ "exp50_ja_salvo": true
+}

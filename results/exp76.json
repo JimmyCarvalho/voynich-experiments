@@ -1,0 +1,80 @@
+{
+ "exp76_tecnica_desleixada": {
+  "deriva_ao_longo_do_livro": {
+   "escriba1": {
+    "n": 51,
+    "tam": "+0.18 ns",
+    "viz1": "-0.05 ns",
+    "mem": "+0.23 ns",
+    "qo": "+0.43 p<0.01 (secao)",
+    "ttr": "-0.03 ns"
+   },
+   "escriba2": {
+    "n": 43,
+    "qo": "+0.58 (herbario->biologica)",
+    "ttr": "-0.47"
+   },
+   "escriba3": {
+    "n": 27,
+    "nota": "tudo ns"
+   },
+   "dentro_de_secao": {
+    "escriba1_herbario_q1-7": {
+     "n": 70,
+     "qo": "+0.17 ns",
+     "ed": "0.0%->0.2%"
+    },
+    "escriba2_herbario": {
+     "n": 20,
+     "ed": "21%->13% ns"
+    },
+    "escriba3_estrelas": {
+     "n": 22,
+     "nota": "tudo ns"
+    }
+   },
+   "conclusao": "sem deriva dentro de escriba+secao; diferencas sao entre escribas (versoes A/B), nao ao longo do tempo"
+  },
+  "violacoes": {
+   "q->o": [
+    97.7,
+    121,
+    5336
+   ],
+   "n->espaco": [
+    97.3,
+    159,
+    5811
+   ],
+   "m->espaco": [
+    94.9,
+    48,
+    937
+   ],
+   "y->espaco": [
+    86.2,
+    2206,
+    16040
+   ],
+   "c->h": [
+    83.9
+   ],
+   "q_inicial": 99.0,
+   "n_final": 97.7,
+   "m_final": 95.4
+  },
+  "habito_vs_tabela": {
+   "entropia_relativa": {
+    "voynich": 0.76,
+    "naibbe_tabela_baralho": 0.76,
+    "latim": 0.82
+   },
+   "favorita": {
+    "voynich": 58,
+    "naibbe": 58,
+    "latim": 42
+   },
+   "conclusao": "indistinguivel de tabela com pesos"
+  }
+ }
+}

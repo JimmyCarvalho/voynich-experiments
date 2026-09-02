@@ -1,0 +1,133 @@
+{
+ "exp53_escribas": {
+  "tamanhos": {
+   "1": 9986,
+   "2": 10595,
+   "3": 11705,
+   "4": 535,
+   "5": 837
+  },
+  "desvio_posicional_medio": {
+   "entre_5_escribas": 0.04,
+   "entre_5_linguas": 0.104,
+   "5_blocos_mesmo_idioma": 0.022
+  },
+  "penalidade_gramatica_cruzada_bits": {
+   "entre_escribas": 0.308,
+   "entre_linguas": 2.402,
+   "mesmo_texto_blocos": 0.216
+  },
+  "jaccard_vocabulario": {
+   "1x2": 0.139,
+   "1x3": 0.146,
+   "2x3": 0.213,
+   "controle_mesmo_texto": 0.244
+  },
+  "mao_vs_secao": {
+   "mesma_secao_maos_diferentes": 0.353,
+   "mesmo_escriba_secoes_diferentes": 0.239,
+   "nota": "a MAO explica mais que a SECAO; escriba 1 e o outlier (Currier A)"
+  }
+ },
+ "exp54_rotulos": {
+  "texto_corrido": {
+   "palavras": 33422,
+   "TTR": 0.213,
+   "hapax": 0.7,
+   "tam": 5.07
+  },
+  "rotulos": {
+   "total": 1119,
+   "TTR": 0.74,
+   "hapax": 0.84,
+   "z_TTR_vs_amostra_pareada": 13.9,
+   "z_hapax": 6.3
+  },
+  "por_tipo": {
+   "circular": {
+    "n": 40,
+    "TTR": 1.0
+   },
+   "estrela": {
+    "n": 85,
+    "TTR": 0.988
+   },
+   "planta_farmacia": {
+    "n": 207,
+    "TTR": 0.947
+   },
+   "ninfa": {
+    "n": 60,
+    "TTR": 0.933
+   },
+   "zodiaco": {
+    "n": 350,
+    "TTR": 0.803
+   },
+   "solto": {
+    "n": 328,
+    "TTR": 0.793
+   }
+  },
+  "rotulo_reaparece_no_texto_da_mesma_pagina": 0.055,
+  "rotulo_aparece_em_qualquer_lugar_do_texto": 0.584,
+  "penalidade_modelo_cruzado_bits": {
+   "texto->rotulos": 0.287,
+   "rotulos->texto": 0.573
+  }
+ },
+ "exp55_naibbe_greshko_2025": {
+  "o_que_e": "cifra de substituicao homofonica verbosa, 6 tabelas sorteadas por carta, plaintext re-espacado em unigramas e bigramas",
+  "reproduz": {
+   "H2": {
+    "voynich": 2.119,
+    "naibbe": 2.061,
+    "latim_cru": 3.322
+   },
+   "H1": {
+    "voynich": 3.865,
+    "naibbe": 3.86
+   },
+   "tam_palavra": {
+    "voynich": 5.07,
+    "naibbe": 5.41
+   },
+   "dp_sobre_media_tam": {
+    "voynich": 0.381,
+    "naibbe": 0.322,
+    "latim": 0.49
+   },
+   "top20": {
+    "voynich": 0.203,
+    "naibbe": 0.228
+   },
+   "4gramas_repetidos": {
+    "voynich": 1,
+    "naibbe": 5,
+    "latim": 615
+   },
+   "5gramas_repetidos": {
+    "voynich": 0,
+    "naibbe": 0,
+    "latim": 289
+   }
+  },
+  "NAO_reproduz": {
+   "palavra_igual_a_anterior": {
+    "voynich": 281,
+    "naibbe": 100,
+    "latim": 12
+   },
+   "vizinhos_1_letra_mesma_linha": {
+    "voynich": 0.045,
+    "naibbe": 0.014
+   },
+   "memoria_da_linha_de_cima_excesso": {
+    "voynich": 0.0192,
+    "naibbe": -0.0062,
+    "voynich_embaralhado": -0.0038
+   }
+  },
+  "conclusao": "a cifra reproduz entropia e ausencia de repeticoes longas, e falha na auto-similaridade local"
+ }
+}
