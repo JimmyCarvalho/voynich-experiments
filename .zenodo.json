@@ -1,0 +1,14 @@
+{
+  "title": "Eighty experiments on the Voynich manuscript: code, results and bilingual site",
+  "upload_type": "software",
+  "description": "Eighty statistical experiments on the text of the Voynich manuscript (Beinecke MS 408), each run on natural-language and enciphered controls before the manuscript. Includes the experiment scripts, the numerical results as JSON, the figures, and the bilingual (English, Portuguese) explanatory site. Main result: the text is statistically indistinguishable from a three-rule process (two-glyph habit, 4% local copying, page-by-page bias), with no lexicon above the habit and no page-specific vocabulary; the labels next to the drawings are the one exception; a Naibbe-class verbose homophonic cipher (Greshko 2025) remains an open hypothesis because the solvers built here could not break Greshko's own control.",
+  "creators": [{"name": "Carvalho, Jimmy"}],
+  "contributors": [{"name": "Claude (Anthropic)", "type": "Other"}],
+  "keywords": ["Voynich manuscript", "cryptanalysis", "entropy", "Markov chain", "controls", "Naibbe cipher", "digital humanities"],
+  "license": "MIT",
+  "access_right": "open",
+  "related_identifiers": [
+    {"identifier": "https://jimmycarvalho.github.io/voynich-experiments/", "relation": "isSupplementTo", "scheme": "url"},
+    {"identifier": "10.1080/01611194.2025.2566408", "relation": "cites", "scheme": "doi"}
+  ]
+}

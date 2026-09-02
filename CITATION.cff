@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below, and cite the sources listed in README.md (Zandbergen for the transliteration; Greshko for the Naibbe cipher)."
+title: "Eighty experiments on the Voynich manuscript"
+authors:
+  - family-names: Carvalho
+    given-names: Jimmy
+version: "1.0"
+date-released: 2026-09-02
+url: "https://jimmycarvalho.github.io/voynich-experiments/"
+repository-code: "https://github.com/JimmyCarvalho/voynich-experiments"
+license: MIT
