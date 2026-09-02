@@ -1,5 +1,7 @@
 # Oitenta experimentos no manuscrito Voynich
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22259446.svg)](https://doi.org/10.5281/zenodo.22259446)
+
 **Site (PT):** https://jimmycarvalho.github.io/voynich-experiments/pt/ · **Site (EN):** https://jimmycarvalho.github.io/voynich-experiments/
 
 Oitenta experimentos estatísticos no texto do manuscrito Voynich (Beinecke MS 408), cada um rodado primeiro em controles de língua natural (latim, português, alemão, hebraico, grego, turco, árabe, finlandês, húngaro, basco, náuatle) e em controles cifrados pelo método em teste, e só depois no manuscrito.
@@ -51,4 +53,4 @@ Código: MIT (ver `LICENSE`). Texto e figuras em `docs/` e `figures/`: CC BY 4.0
 
 ## Citar
 
-Se usar isto, cite o repositório (um DOI do Zenodo será anexado ao primeiro release) e as fontes acima, em particular Zandbergen pela transliteração e Greshko pela cifra Naibbe.
+Se usar isto, cite assim: Carvalho, J. (2026). *Eighty experiments on the Voynich manuscript: code, results and bilingual site* (v1.0). Zenodo. https://doi.org/10.5281/zenodo.22259446 (esta versão: https://doi.org/10.5281/zenodo.22259447). Cite também as fontes acima, em particular Zandbergen pela transliteração e Greshko pela cifra Naibbe.

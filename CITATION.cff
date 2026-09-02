@@ -9,3 +9,8 @@ date-released: 2026-09-02
 url: "https://jimmycarvalho.github.io/voynich-experiments/"
 repository-code: "https://github.com/JimmyCarvalho/voynich-experiments"
 license: MIT
+doi: 10.5281/zenodo.22259447
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22259446
+    description: "Concept DOI (all versions)"
